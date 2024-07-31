@@ -1,0 +1,1078 @@
+/* universal styling */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* styling of the first div of the page */
+
+.thefirstdiv {
+    height: 6vh;
+    width: 100%;
+    background-color: #f9f9fb;
+    padding-top: 0.5%;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* styling of the AI link in the first div of the page */
+.thefirstdiv span {
+    color: blue;
+    text-decoration: none;
+}
+
+/* this styling is for the third div> */
+
+.thethirddiv {
+    height: 4vh;
+    width: 100%;
+    background-color: #f9f9fb;
+    font-size: 18px;
+    border-bottom-style: groove;
+    position: sticky;
+    top: 10%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.thethirddiv a {
+    text-decoration: none;
+    color: black;
+    margin-left: 2%;
+
+}
+
+
+/* applying flex to the header to make its child div elements flex container */
+
+header {
+    display: flex;
+    border-bottom-style: groove;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+}
+
+
+/* this stl;ing is for the other details on the navbar to make it flexcontainer and style it with the help of flex */
+
+header .signupandothers {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* logo div styling */
+
+.logo {
+    height: 10vh;
+    width: 20vw;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+/* styling for the name on the namebar */
+
+
+.logo span {
+    font-family: "Black Ops One", system-ui;
+    color: blue;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+/* nav styling */
+
+nav {
+    height: 10vh;
+    width: 50vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling of other details on the navbar */
+
+.signupandothers {
+    height: 10vh;
+    width: 30vw;
+}
+
+/* styling of first dropdown list (main dropdown) */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* styling of dropdowm list */
+.dropdown-list {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    margin-top: 4%;
+}
+
+/* styling of dropdown content */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    z-index: 1;
+    line-height: 2;
+    margin-left: 10px;
+}
+
+/* styling of the heading inside the dropdown list */
+
+
+.dropdown-content a h4 {
+    text-decoration: double underline;
+    color: black;
+}
+
+/* styling of the links in the dropdown content */
+
+.dropdown-content a {
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* this styling is applied to change the color of dropdown content when the user hovers over it. */
+
+.dropdown-content a:hover {
+    color: blue;
+}
+
+/* to show the dropdown content when the user hovers over it. */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* to change the color of content inside the dropdown */
+.dropdown:hover .dropdown-list {
+    background-color: #cdcdcd;
+    color: blue
+}
+
+/* here completes the styling of fisrt dropdown of nav bar */
+
+
+/* styling of second dropdown list (main dropdown) */
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+
+/* styling of dropdowm list */
+.dropdown-list2 {
+    background-color:  black;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+/* styling of dropdown content */
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    line-height: 2;
+}
+
+.dropdown-content2 a h4 {
+    text-decoration: double underline;
+    color: black;
+}
+
+/* styling of the links in the dropdown content */
+
+.dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* this styling is applied to change the color of dropdown content when the user hovers over it. */
+
+.dropdown-content2 a:hover {
+    color: blue;
+}
+
+/* to show the dropdown content when the user hovers over it. */
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+/* to change the color of content inside the dropdown */
+.dropdown2:hover .dropdown-list2 {
+    background-color: transparent;
+    color: blue
+}
+
+/* here completes the styling of second dropdown bar */
+
+
+/* styling of third dropdown list (main dropdown) */
+.dropdown3 {
+    position: relative;
+    display: inline-block;
+}
+
+/* styling of dropdowm list */
+.dropdown-list3 {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+/* styling of dropdown content */
+
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    z-index: 1;
+    line-height: 2;
+    margin-left: 10px;
+}
+
+/* styling of the heading inside the dropdown list */
+
+
+.dropdown-content3 a h4 {
+    text-decoration: double underline;
+color: black;
+}
+
+/* styling of the links in the dropdown content */
+
+.dropdown-content3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* this styling is applied to change the color of dropdown content when the user hovers over it. */
+
+.dropdown-content3 a:hover {
+  color: blue;
+}
+
+/* to show the dropdown content when the user hovers over it. */
+
+.dropdown3:hover .dropdown-content3 {
+    display: block;
+}
+
+/* to change the color of content inside the dropdown */
+.dropdown3:hover .dropdown-list3 {
+    background-color: #cdcdcd;
+    color: blue
+}
+
+/* here completes the styling of third dropdown of nav bar */
+
+
+/* the styling of sixth navbar */
+
+/* styling of second dropdown list (main dropdown) */
+.dropdown6 {
+    position: relative;
+    display: inline-block;
+}
+
+/* styling of dropdowm list */
+.dropdown-list6 {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+/* styling of dropdown content */
+
+.dropdown-content6 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    line-height: 2;
+}
+
+.dropdown-content6 a h4 {
+    text-decoration: double underline;
+    color: black;
+}
+
+/* styling of the links in the dropdown content */
+
+.dropdown-content6 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* this styling is applied to change the color of dropdown content when the user hovers over it. */
+
+.dropdown-content6 a:hover {
+   color: blue;
+}
+
+/* to show the dropdown content when the user hovers over it. */
+
+.dropdown6:hover .dropdown-content6 {
+    display: block;
+
+
+}
+
+/* to change the color of content inside the dropdown */
+.dropdown6:hover .dropdown-list6 {
+    background-color: #cdcdcd;
+    color: blue
+}
+
+/* here completes the styling of sixth dropdown bar */
+
+/* the styling of other details on the navbar */
+.signupandothers p {
+    color: white;
+    cursor: pointer;
+}
+
+/* the styling of signup button on the navbar */
+.buttonforsignup {
+    background-color: white;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.logo {
+    color: white;
+}
+
+.logoline {
+    color: blue;
+}
+
+
+/* styling for the content-container/////////////////////////////////////////////////////////////////// */
+
+.content-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* styling for the sidebar */
+
+.side-bar {
+    width: 20%;
+    max-height: 100%;
+    background-color: white;
+    /* position: fixed; */
+    /* top: 21%; */
+    /* overflow: auto; */
+    /* overflow: hidden; */
+    overflow-y: scroll;
+    /* bottom: 10%;   */
+}
+
+.side-bar h3 {
+    height: 60px;
+    width: 80px;
+    background-color: lightblue;
+    border-left-style: double;
+    border-left-color: blue;
+    margin-top: 15%;
+    margin-left: 10%;
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-right: 2%;
+    margin-bottom: 8%;
+}
+
+.side-bar a {
+    margin-left: 10%;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.side-bar p {
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+/* styling for the centre content */
+
+.content {
+    background-color: white;
+    width: 80%;
+    max-height: 150%;
+    margin-left: 4%;
+    /* margin-right: 3%; */
+    overflow: auto;
+    display: flex;
+    margin-bottom: 8%;
+
+}
+.content-words{
+    margin-right: 3%;
+}
+
+.content h1 {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.content p {
+    font-size: 18px;
+    word-spacing: 2px;
+    margin-bottom: 4%;
+}
+
+.paragraph2 {
+    margin-bottom: 4%;
+}
+
+.content dd {
+    margin-top: 3%;
+    margin-left: 9%;
+}
+
+.paragraph4 {
+    margin-left: 6%;
+    margin-top: 4%;
+}
+
+.content li {
+    margin-top: 2%;
+}
+
+/* styling for the aside content */
+
+.aside-content {
+    background-color: white;
+    /* width: 15vw;
+    height: 100vh; */
+ /* display: flex; */
+} 
+
+.aside-content p {
+    font-size: 20px;
+    margin-top: 20%;
+    word-spacing: 4pcx;
+
+}
+
+.aside-menu {
+    width: 15vw; 
+    /* min-height: 50vh; */
+    border-left-style: groove;
+    border-left-color: gainsboro;
+}
+
+.aside-menu p {
+    margin-top: 7%;
+    margin-left: 6%;
+    font-size: smaller;
+}
+
+/* styling of the dropdown in the side-bar */
+
+/* styling of first dropdown list (sidebar dropdown) */
+.dropdown7 {
+    /* position:relative; */
+    display: inline-block;
+}
+
+/* styling of dropdowm list */
+.dropdown-list7 {
+    padding: 10px;
+    /* font-size: 14px; */
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 4px;
+}
+
+/* styling of dropdown content */
+
+.dropdown-content7 {
+    display: none;
+    /* position: absolute; */
+    min-width: 180px;
+    z-index: 1;
+    line-height: 1;
+    margin-left: 8px;
+}
+
+/* styling of the links in the dropdown content */
+
+.dropdown-content7 a {
+
+    padding: 7px 7px;
+    text-decoration: none;
+    display: block;
+    font-size: smaller;
+    font-weight: normal;
+}
+
+
+/* to show the dropdown content when the user hovers over it. */
+
+.dropdown7:hover .dropdown-content7 {
+    display: block;
+}
+
+/* .dropdown7:active .dropdown-content7{
+    display: hidden;
+   
+}  */
+
+/* to change the color of content inside the dropdown */
+.dropdown7:hover .dropdown-list7 {
+    color: blue;
+    text-decoration: underline;
+}
+
+.dropdown7 a:hover {
+    text-decoration: underline;
+}
+
+
+/* here completes the styling of fisrt dropdown of sidebar */
+
+/* styling of second dropdown list (sidebar dropdown) */
+.dropdown8 {
+    /* position:relative; */
+    display: inline-block;
+}
+
+/* styling of dropdowm list */
+.dropdown-list8 {
+    padding: 10px;
+    /* font-size: 14px; */
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 4px;
+}
+
+/* styling of dropdown content */
+
+.dropdown-content8 {
+    display: none;
+    /* position: absolute; */
+    min-width: 180px;
+    z-index: 1;
+    line-height: 1;
+    margin-left: 8px;
+}
+
+/* styling of the links in the dropdown content */
+
+.dropdown-content8 a {
+
+    padding: 7px 7px;
+    text-decoration: none;
+    display: block;
+    font-size: smaller;
+    font-weight: normal;
+}
+
+
+/* to show the dropdown content when the user hovers over it. */
+
+.dropdown8:hover .dropdown-content8 {
+    display: block;
+}
+
+/* to change the color of content inside the dropdown */
+.dropdown8:hover .dropdown-list8 {
+    color: blue;
+    text-decoration: underline;
+}
+
+.dropdown8 a:hover {
+    text-decoration: underline;
+}
+
+/* here completes the styling of seconf dropdown of sidebar */
+
+/* styling of third dropdown list (sidebar dropdown) */
+.dropdown9 {
+    /* position:relative; */
+    display: inline-block;
+}
+
+/* styling of dropdowm list */
+.dropdown-list9{
+    padding: 10px;
+    /* font-size: 14px; */
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 4px;
+}
+
+/* styling of dropdown content */
+
+.dropdown-content9 {
+    display: none;
+    /* position: absolute; */
+    min-width: 180px;
+    z-index: 1;
+    line-height: 1;
+    margin-left: 8px;
+}
+
+/* styling of the links in the dropdown content */
+
+.dropdown-content9 a {
+
+    padding: 7px 7px;
+    text-decoration: none;
+    display: block;
+    font-size: smaller;
+    font-weight: normal;
+}
+
+
+/* to show the dropdown content when the user hovers over it. */
+
+.dropdown9:hover .dropdown-content9 {
+    display: block;
+}
+
+/* to change the color of content inside the dropdown */
+.dropdown9:hover .dropdown-list9 {
+    color: blue;
+    text-decoration: underline;
+}
+
+.dropdown9 a:hover {
+    text-decoration: underline;
+}
+
+/* here completes the styling of fisrt dropdown of sidebar */
+
+/* styling of fifth dropdown list (sidebar dropdown) */
+.dropdown11{
+    /* position:relative; */
+    display: inline-block;
+}
+
+/* styling of dropdowm list */
+.dropdown-list11{
+    padding: 10px;
+    /* font-size: 14px; */
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 4px;
+}
+
+/* styling of dropdown content */
+
+.dropdown-content11{
+    display: none;
+    /* position: absolute; */
+    min-width: 180px;
+    z-index: 1;
+    line-height: 1;
+    margin-left: 8px;
+}
+
+/* styling of the links in the dropdown content */
+
+.dropdown-content11 a {
+
+    padding: 7px 7px;
+    text-decoration: none;
+    display: block;
+    font-size: smaller;
+    font-weight: normal;
+}
+
+
+/* to show the dropdown content when the user hovers over it. */
+
+.dropdown11:hover .dropdown-content11 {
+    display: block;
+}
+
+/* to change the color of content inside the dropdown */
+.dropdown11:hover .dropdown-list11 {
+    color: blue;
+    text-decoration: underline;
+}
+
+.dropdown11 a:hover {
+    text-decoration: underline;
+}
+
+/* here completes the styling of fisrt dropdown of sidebar */
+
+
+/* styling of forth dropdown list (sidebar dropdown) */
+.dropdown10{
+    /* position:relative; */
+    display: inline-block;
+}
+
+/* styling of dropdowm list */
+.dropdown-list10{
+    padding: 10px;
+    /* font-size: 14px; */
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 4px;
+}
+
+/* styling of dropdown content */
+
+.dropdown-content10 {
+    display: none;
+    /* position: absolute; */
+    min-width: 180px;
+    z-index: 1;
+    line-height: 1;
+    margin-left: 8px;
+}
+
+/* styling of the links in the dropdown content */
+
+.dropdown-content10 a {
+
+    padding: 7px 7px;
+    text-decoration: none;
+    display: block;
+    font-size: smaller;
+    font-weight: normal;
+}
+
+
+/* to show the dropdown content when the user hovers over it. */
+
+.dropdown10:hover .dropdown-content10 {
+    display: block;
+}
+
+/* to change the color of content inside the dropdown */
+.dropdown10:hover .dropdown-list10 {
+    color: blue;
+    text-decoration: underline;
+}
+
+.dropdown10 a:hover {
+    text-decoration: underline;
+}
+
+/* here completes the styling of fisrt dropdown of sidebar */
+
+
+
+/* styling of the footer of the website */
+
+.footer {
+    /* margin-top: 210%; */
+    width: 100%;
+    min-height: 35vh;
+    background-color: #f9f9fb;
+    display: flex;
+    column-gap: 1.5em;
+    border-bottom-style: groove;
+}
+
+.footer2 {
+    min-height: 15vh;
+    width: 98.7vw;
+    background-color: #f9f9fb;
+}
+
+/* styling fot the right side content */
+
+.footer-content {
+    height: 50vh;
+    width: 25vw;
+}
+
+
+.footer-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-content2 {
+    height: 50vh;
+    width: 20vw;
+    /* background-color: blue; */
+}
+
+.footer-content2 a {
+    display: flex;
+    row-gap: 1em;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-content2 p {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content2 a:hover {
+    color: blue;
+}
+
+.footer-content3 {
+    height: 50vh;
+    width: 20vw;
+}
+
+.footer-content3 a {
+    display: flex;
+    row-gap: 1em;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 1.3em;
+}
+
+.footer-content3 a:hover {
+    color: blue;
+}
+
+.footer-content3 p {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content4 {
+    height: 50vh;
+    width: 20vw;
+    /* background-color: blue; */
+}
+
+.footer-content4 a {
+    display: flex;
+    row-gap: 1em;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 1.3em;
+}
+
+.footer-content4 a:hover {
+    color: blue;
+}
+
+.footer-content4 p {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content5 {
+    height: 50vh;
+    width: 20vw;
+
+}
+
+.footer-content5 a {
+    display: flex;
+    row-gap: 1em;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 1.3em;
+}
+
+.footer-content5 a:hover {
+    color: blue;
+}
+
+.footer-content5 p {
+    display: flex;
+    justify-content: center;
+}
+
+.footer b {
+    margin-left: 3%;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+
+.footer p {
+    margin-left: 3%;
+    margin-top: 1%;
+    font-size: large;
+}
+
+
+
+    /* media queries */
+
+    @media only screen and (max-width:930px){
+        nav{
+            display: none;
+        }
+
+        .signupandothers{
+            width: 80vw;
+        }
+    }
+
+    @media only screen and (max-width:700px){
+       
+        .aside-content , .aside-menu , .aside-content{
+            display: none;
+            width: 0%;
+        }
+    }
+
+    @media only screen and (max-width:670px){
+
+        .side-bar{
+            width: 25%;
+        }
+       
+         .dropmedia{
+            display: none;
+        }
+
+    }
+
+    @media only screen and (max-width:550px){
+
+        .side-bar{
+            width: 28%;
+        }
+       
+
+    }
+
+    @media only screen and (max-width:500px){
+
+        .side-bar{
+            width: 30%;
+        }
+       
+
+    }
+    @media only screen and (max-width:485px){
+
+        .side-bar{
+            width: 32%;
+        }
+
+        .content{
+            margin-left: 1%;
+        }
+       
+
+    }
+
+    @media only screen and (max-width:450px){
+
+        .side-bar{
+            display: none;
+        }
+
+        .content{
+            margin-left: 4%;
+        }
+
+    }
+
+    @media only screen and (max-width:950px){
+        .footer {
+            /* margin-top: 210%; */
+            display: flex;
+            column-gap: 1em;
+            
+        }
+    }
+
+    @media only screen and (max-width:920px){
+        .footer {
+            /* margin-top: 210%; */
+            display: flex;
+            column-gap: 0%
+            
+        }
+    }
+
+    @media only screen and (max-width:870px){
+        .footer-content{
+             width: 20vw;
+        }
+    }
+
+    @media only screen and (max-width:820px){
+        .footer-content{
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width:810px){
+        .footer-content5 , .footer-content2 , .footer-content3 ,.footer-content4{
+            width: 25%;
+        }
+    }
+
+    @media only screen and (max-width:650px){
+        .footer-content5 {
+       display: none;
+        }
+
+        .footer-content2 , .footer-content3 , .footer-content4{
+            min-width: 30%;
+        }
+    }
+
+

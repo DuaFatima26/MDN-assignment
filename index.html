@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Cascading style sheet</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font family cdn -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cinzel:wght@400..900&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--the header or navbar of the page  -->
+    <div class="thefirstdiv">Get real-time assistance with your coding queries.Try <a
+            href="https://developer.mozilla.org/en-US/plus/ai-help">&nbsp;&nbsp;<span>AI Help</span>&nbsp;&nbsp;</a>
+        now!</div>
+
+    <!-- the header of the page -->
+    <header>
+
+        <!-- logo or name of the website -->
+        <div class="logo"><span>M</span>mdn Web Docs<span class=".logoline">_</span></div>
+
+        <!-- navigaton bar of the website -->
+        <nav>
+
+            <!-- the first dropdown of navigation bar -->
+            <div class="dropdown">
+                <button class="dropdown-list">Refrences</button>
+                <div class="dropdown-content">
+                    <a href="">
+                        <h4>HTML</h4>Structure of content on the web
+                    </a>
+                    <a href="">
+                        <h4>CSS</h4>Code used to describe document style
+                    </a>
+                    <a href="">
+                        <h4>JAVASCRIPT</h4>General-purpose scripting language
+                    </a>
+                    <a href="">
+                        <h4>HTTP</h4>Protocol for transmitting web resources
+                    </a>
+                    <a href="">
+                        <h4>Web APIs</h4>Interfaces for building web applications
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- the second dropdown of navigation bar -->
+            <div class="dropdown2">
+                <button class="dropdown-list2">Guides</button>
+                <div class="dropdown-content2">
+                    <a href="">
+                        <h4>HTML</h4>Structure of content on the web
+                    </a>
+                    <a href="">
+                        <h4>CSS</h4>Code used to describe document style
+                    </a>
+                    <a href="">
+                        <h4>JavaScript</h4>General-purpose scripting language
+                    </a>
+                    <a href="">
+                        <h4>HTTP</h4>Protocol for transmitting web resources
+                    </a>
+                    <a href="">
+                        <h4>Web APIs</h4>Interfaces for building web applications
+                    </a>
+                </div>
+            </div>
+
+            <!-- the third dropdown of navigation bar -->
+            <div class="dropdown3">
+                <button class="dropdown-list3">Plus</button>
+                <div class="dropdown-content3">
+                    <a href="">
+                        <h4>HTML</h4>Structure of content on the web
+                    </a>
+                    <a href="">
+                        <h4>CSS</h4>Code used to describe document style
+                    </a>
+                    <a href="">
+                        <h4>JavaScript</h4>General-purpose scripting language
+                    </a>
+                    <a href="">
+                        <h4>HTTP</h4>Protocol for transmitting web resources
+                    </a>
+                    <a href="">
+                        <h4>Web APIs</h4>Interfaces for building web applications
+                    </a>
+                </div>
+            </div>
+
+            <!-- the fourth name of the navbar -->
+
+            <div class="dropdown3">
+                <a href="https://developer.mozilla.org/en-US/curriculum/"><button
+                        class="dropdown-list3">Curriculum</button></a>
+            </div>
+
+
+            <!-- the fifth name of the navbar -->
+
+            <div class="dropdown3">
+                <a href="https://developer.mozilla.org/en-US/blog/"><button class="dropdown-list3">Blogs</button></a>
+            </div>
+
+
+            <!-- the sixth dropdown of navigation bar -->
+            <div class="dropdown6">
+                <button class="dropdown-list6">Tools</button>
+                <div class="dropdown-content6">
+                    <a href="">
+                        <h4>HTML</h4>Structure of content on the web
+                    </a>
+                    <a href="">
+                        <h4>CSS</h4>Code used to describe document style
+                    </a>
+                    <a href="">
+                        <h4>JavaScript</h4>General-purpose scripting language
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!--  signup and others details on the navbar -->
+        <div class="signupandothers">
+            <p>Theme</p>
+            <p>Login</p>
+            <button class="buttonforsignup">Signup for free</button>
+        </div>
+        <hr>
+    </header>
+
+    <!--the third header or div of the page  -->
+    <div class="thethirddiv"><a>Refrences &nbsp;> &nbsp;CSS</a></div>
+
+
+    <!-- the div for the main page -->
+    <div class="main-container">
+
+        <!-- the div in which all the content lies -->
+        <div class="content-container">
+
+            <!-- the sidebar div -->
+            <div class="side-bar">
+
+                <h3>CSS</h3>
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">Tutorials</a>
+                <p>CSS basics</p>
+
+                <!-- first dropdown of sidebar -->
+                <div class="dropdown7">
+                    <button class="dropdown-list7"><i class="fa-solid fa-angle-right"></i>&nbsp;First steps</button>
+                    <div class="dropdown-content7">
+                        <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps"> CSS first step overview </a>
+                        <a href="">What is CSS?</a>
+                        <a href="">Getting started with CSS</a>
+                        <a href="">How CSS is structured</a>
+                        <a href="">How CSS works</a>
+                        <a href="">Assesment: styling a biography page</a>
+                    </div>
+                </div><br>
+
+
+                <!-- second dropdown of sidebar -->
+                <div class="dropdown8">
+                    <button class="dropdown-list8"><i class="fa-solid fa-angle-right"></i>&nbsp;Building
+                        blocks</button>
+                    <div class="dropdown-content8">
+                        <a href="">CSS building block overview</a>
+                        <a href="">CSS selectors</a>
+                        <a href="">Type,class and id selectors</a>
+                        <a href="">Attribute selectors</a>
+                        <a href="">Pseudo elemens, and classes</a>
+                        <a href="">Combinators</a>
+                        <a href="">Cascade Specificity and inheritance</a>
+                        <a href="">Cascade layers</a>
+                        <a href="">The box medel</a>
+                        <a href="">Background and borders</a>
+                        <a href="">Handling different text direction</a>
+                        <a href="">Overflowing Content</a>
+                    </div>
+                </div><br>
+
+                <!-- third dropdown of sidebar -->
+                <div class="dropdown9">
+                    <button class="dropdown-list9"><i class="fa-solid fa-angle-right"></i>&nbsp; Styling text</button>
+                    <div class="dropdown-content9">
+                        <a href="">Styling text overview</a>
+                        <a href="">Stling links</a>
+                        <a href="">Styling lists</a>
+                        <a href="">Web fonts</a>
+                    </div>
+                </div><br>
+
+                <!-- fourth dropdown of sidebar -->
+                <div class="dropdown10">
+                    <button class="dropdown-list10"><i class="fa-solid fa-angle-right"></i>&nbsp; CSS layout</button>
+                    <div class="dropdown-content10">
+                        <a href="">CSS layout overview</a>
+                        <a href="">Introduction to CSS layout</a>
+                        <a href="">Normal flow</a>
+                        <a href="">Flexbox</a>
+                        <a href="">Grids</a>
+                        <a href="">Floats</a>
+                        <a href="">Positioning</a>
+                    </div>
+                </div><br>
+
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">Refrences</a><br>
+
+                  <!-- fifth dropdown of sidebar -->
+                  <div class="dropdown11">
+                    <button class="dropdown-list11"><i class="fa-solid fa-angle-right"></i>&nbsp; Modules</button>
+                    <div class="dropdown-content11">
+                        <a href="">CSS anchor positioning</a>
+                        <a href="">CSS animations</a>
+                        <a href="">CSS  box alignment</a>
+                        <a href="">CSS box model</a>
+                        <a href="">CSS box sizing</a>
+                        <a href="">CSS cascade</a>
+                        <a href="">CSS  custom properties</a>
+                    </div>
+                </div><br>
+
+                 <!-- sixth dropdown of sidebar -->
+                 <div class="dropdown11">
+                    <button class="dropdown-list11"><i class="fa-solid fa-angle-right"></i>&nbsp; Selectors</button>
+                    <div class="dropdown-content11">
+                        <a href="">Attribute selectors</a>
+                        <a href="">ID selectors</a>
+                        <a href="">Type selectors</a>
+                        <a href="">Universal selectors</a>
+                        
+                    </div>
+                </div><br>
+
+                 <!-- seventh dropdown of sidebar -->
+                 <div class="dropdown11">
+                    <button class="dropdown-list11"><i class="fa-solid fa-angle-right"></i>&nbsp; Combinators</button>
+                    <div class="dropdown-content11">
+                        <a href="">Child combinator</a>
+                        <a href="">Descendat combinator</a>
+                        <a href="">Namespace separator</a>
+                        <a href="">selector list</a>
+                    </div>
+                </div><br>
+
+                 <!-- eighth dropdown of sidebar -->
+                 <div class="dropdown11">
+                    <button class="dropdown-list11"><i class="fa-solid fa-angle-right"></i>&nbsp; At rules</button>
+                    <div class="dropdown-content11">
+                        <a href="">@charset</a>
+                        <a href="">@color-profile</a>
+                        <a href="">@counter-style</a>
+                        <a href="">@font-face</a>
+                        <a href="">@import</a>
+                    </div>
+                </div><br>
+
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">Guides</a><br>
+                 <!-- ninth dropdown of sidebar -->
+                 <div class="dropdown11">
+                    <button class="dropdown-list11"><i class="fa-solid fa-angle-right"></i>&nbsp; Animations</button>
+                    <div class="dropdown-content11">
+                        <a href="">Using CSS animations</a>
+                    </div>
+                </div><br>
+
+                 <!-- eighth dropdown of sidebar -->
+                 <div class="dropdown11">
+                    <button class="dropdown-list11"><i class="fa-solid fa-angle-right"></i>&nbsp; Background</button>
+                    <div class="dropdown-content11">
+                        <a href="">Using multiple backgrounds</a>
+                        <a href="">Resizing background images</a>
+                      
+                    </div>
+                </div><br>
+
+                 <!-- tenth dropdown of sidebar -->
+                 <div class="dropdown11">
+                    <button class="dropdown-list11"><i class="fa-solid fa-angle-right"></i>&nbsp;Colors</button>
+                    <div class="dropdown-content11">
+                        <a href="">Color values</a>
+                        <a href="">Using relative colors</a>
+                        <a href="">Using color wisely</a>
+                        <a href="">Color contrast</a>
+                      
+                    </div>
+                </div><br>
+
+                   <!-- eleventh dropdown of sidebar -->
+                   <div class="dropdown11">
+                    <button class="dropdown-list11"><i class="fa-solid fa-angle-right"></i>&nbsp;Columns</button>
+                    <div class="dropdown-content11">
+                        <a href="">Basic concepts of multicol</a>
+                        <a href="">styling columns</a>
+                        <a href="">spanning and balancing</a>
+                        <a href="">content breaks in multicol</a>
+                      
+                    </div>
+                </div><br>
+
+                 <!-- 12th dropdown of sidebar -->
+                 <div class="dropdown11">
+                    <button class="dropdown-list11 dropmedia"><i class="fa-solid fa-angle-right"></i>&nbsp;Conditinal rules</button>
+                    <div class="dropdown-content11">
+                        <a href="">Basic concepts of multicol</a>
+                        <a href="">styling columns</a>
+                        <a href="">spanning and balancing</a>
+                        <a href="">content breaks in multicol</a>
+                      
+                    </div>
+                </div><br>
+
+                
+
+
+            </div>
+
+
+            <!-- the content of the page -->
+            <div class="content">
+                <div class="content-words">
+                <h1>CSS: Cascading Style Sheets</h1>
+                <p><strong>Cascading Style Sheets (CSS)</strong> is a <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet">stylesheet </a>language used
+                    to describe the presentation of a document
+                    written in<a href="https://developer.mozilla.org/en-US/docs/Web/HTML"> HTML</a> or <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction"> XML</a> (including XML
+                    dialects such as <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">SVG</a>,<a
+                        href="https://developer.mozilla.org/en-US/docs/Web/MathML"> MathML</a> or<a
+                        href="https://developer.mozilla.org/en-US/docs/Glossary/XHTML"> XHTML</a>). CSS describes how
+                    elements
+                    should be rendered on screen, on paper, in speech, or on other media.</p>
+
+                <p class="paragraph2">CSS is among the core languages of the<b> open web</b> and is standardized across
+                    Web browsers according to
+                    <a href="https://www.w3.org/Style/CSS/#specs">W3C specifications.</a> Previously, the development of
+                    various parts of CSS specification was done
+                    synchronously, which allowed the versioning of the latest recommendations. You might have heard
+                    about CSS1, CSS2.1, or even CSS3. There will never be a CSS3 or a CSS4; rather, everything is now
+                    just "CSS" with individual CSS modules having version numbers.
+                </p>
+
+                <p class="paragraph3">After CSS 2.1, the scope of the specification increased significantly and the
+                    progress on different CSS modules started to differ so much, that it became more effective to
+                    <a href="https://www.w3.org/Style/CSS/current-work" target="_blank">develop and release
+                        recommendations separately per module.</a> Instead of versioning the CSS
+                    specification, W3C now periodically takes a snapshot of <a href="https://www.w3.org/TR/css/"
+                        target="blank">the latest stable state of the CSS
+                        specifications</a> and individual modules progress. CSS modules now have version numbers, or
+                    levels, such
+                    as CSS Color Module Level 5.
+                </p>
+
+
+                <h1>Key Resources</h1>
+                <dl>
+                    <dt><b>CSS Introduction</b></dt>
+                    <dd>If you're new to web development, be sure to read our<a
+                            href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CS
+                            basics.</a> article to learn what CSS is and how to use it.</dd>
+
+                    <dt><b>CSS Tutorials</b></dt>
+                    <dd><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">Our CSS learning area</a>contains a
+                        wealth of tutorials to take you from beginner level to
+                        proficiency, covering all the fundamentals.</dd>
+
+                    <dt><b>CSS Refrence</b></dt>
+                    <dd>Our <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"> CSS Refrences </a>
+                        describes every property and concept of CSS.</dd>
+                </dl>
+
+                <h1>Tutorials</h1>
+                <p>Our <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">Our CSS learning area</a> features
+                    multiple modules that teach CSS from the ground up — no previous
+                    knowledge required.</p>
+
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps">CSS first step</a>
+                <p class="paragraph4">CSS (Cascading Style Sheets) is used to style and layout web pages — for example,
+                    to alter the font,
+                    color, size, and spacing of your content, split it into multiple columns, or add animations and
+                    other decorative features. This module provides a gentle beginning to your path towards CSS mastery
+                    with the basics of how it works, what the syntax looks like, and how you can start using it to add
+                    styling to HTML.</p>
+
+
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks">CSS Building blocks</a>
+                <p class="paragraph4">This module carries on where <a
+                        href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps">CSS first steps</a> left
+                    off — now you've gained familiarity with the
+                    language and its syntax, and got some basic experience with using it, it's time to dive a bit
+                    deeper. This module looks at the cascade and inheritance, all the selector types we have available,
+                    units, sizing, styling backgrounds and borders, debugging, and lots more.</p>
+
+                <p class="paragraph4">The aim here is to provide you with a toolkit for writing competent CSS and help
+                    you understand all
+                    the essential theory, before moving on to more specific disciplines like <a
+                        href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text">text styling</a> and <a
+                        href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout">CSS
+                        layout.</a></p>
+
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text">CSS Styling text</a>
+                <p class="paragraph4">With the basics of the CSS language covered, the next CSS topic for you to
+                    concentrate on is styling text — one of the most common things you'll do with CSS. Here we look at
+                    text styling fundamentals, including setting font, boldness, italics, line and letter spacing, drop
+                    shadows, and other text features. We round off the module by looking at applying custom fonts to
+                    your page, and styling lists and links.</p>
+
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout">CSS Layout</a>
+                <p class="paragraph4">At this point we've already looked at CSS fundamentals, how to style text, and how
+                    to style and
+                    manipulate the boxes that your content sits inside. Now it's time to look at how to place your boxes
+                    in the right place in relation to the viewport, and to each other. We have covered the necessary
+                    prerequisites so we can now dive deep into CSS layout, looking at different display settings, modern
+                    layout tools like flexbox, CSS grid, and positioning, and some of the legacy techniques you might
+                    still want to know about.</p>
+
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto">Use CSS to solve common problems</a>
+                <p class="paragraph4">This module provides links to sections of content explaining how to use CSS to
+                    solve common problems when creating a web page.</p>
+
+                <h1>Refrences</h1>
+                <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS reference </a>is an
+                    exhaustive reference for seasoned Web developers, describing every property
+                    and concept of CSS, including:</p>
+
+                <list>
+                    <ul>
+                        <li>The<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax"> Syntax and forms of
+                                the language.</a></li>
+                        <li> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity">Specificity</a> ,<a
+                                href="https://developer.mozilla.org/en-US/docs/Web/CSS/Inheritance"> inheritance</a> and
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade"> the cascade </a>
+                        </li>
+                        <li> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors">CSS selectors,</a>
+                            including <a
+                                href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_pseudo-elements">pseudo-elements</a>
+                        </li>
+                        <li> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule"> CSS at rules</a>
+                            including <a
+                                href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries">media</a> and
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment">container</a>
+                            queries
+                        </li>
+                        <li>The <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block">containing
+                                block</a></li>
+                    </ul>
+                </list>
+
+                <h1>Cookbook</h1>
+                <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook"> CSS layout
+                        cookbook</a> aims to bring together recipes for common layout patterns, things you might
+                    need to implement in your sites. In addition to providing code you can use as a starting point in
+                    your projects, these recipes highlight the different ways layout specifications can be used and the
+                    choices you can make as a developer.</p>
+
+                <h1>Tools for CSS development</h1>
+                <list>
+                    <ul>
+                        <li>You can use the<a href="https://jigsaw.w3.org/css-validator/" target="_blank"> W3C CSS
+                                Validation</a> Service to check if your CSS is valid. This is an
+                            invaluable debugging tool.</li>
+                        <li><a href="https://firefox-source-docs.mozilla.org/devtools-user/index.html" target="_blank">
+                                Firefox Developer Tools</a> lets you view and edit a page's live CSS via the <a
+                                href="https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/index.html"
+                                target="_blank">Inspector </a> and <a
+                                href="https://firefox-source-docs.mozilla.org/devtools-user/style_editor/index.html"
+                                target="_blank">Style
+                                Editor</a> tools.</li>
+                        <li>The <a href="https://addons.mozilla.org/en-US/firefox/addon/web-developer/"
+                                target="_blank">Web Developer extension </a> for Firefox lets you track and edit live
+                            CSS on watched sites.
+                        </li>
+                    </ul>
+                </list>
+
+                <h1>Meta bugs</h1>
+                <ul>
+                    <li>Firefox: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1323667" target="_blank">Firefox
+                            bug 1323667</a></li>
+                </ul>
+
+              
+                <h1>See Also</h1>
+            
+                <ul>
+                    <li>Web languages to which CSS is often applied:<a
+                            href="https://developer.mozilla.org/en-US/docs/Web/HTML"> HTML</a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction"> XML</a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">SVG</a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/MathML"> MathML</a>
+                    </li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Glossary/XHTML"> XHTML.</a>
+                    <li><a href="https://stackoverflow.com/questions/tagged/css" target="_blank"> Stack Overflow
+                            questions about CSS</a></li>
+                </ul>
+            </div>
+          
+
+            <!-- the aside content -->
+            <div class="aside-content">
+                <p>In this article</p>
+                <!-- the menu of aside content -->
+                <div class="aside-menu">
+                    <p id=>Key Resources</p>
+                    <p>Tutorials</p>
+                    <p>Refrence</p>
+                    <p>Cookbook</p>
+                    <p>Tools for CSS developmet</p>
+                    <p>Meta bugs</p>
+                    <p>See also</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- the footer of the website -->
+    <footer>
+        <div class="footer">
+            <div class="footer-content"><br>
+                <a href="https://developer.mozilla.org/en-US/"><b>mdn</b></a>
+                <p>Your blueprint for better internet.</p>
+            </div>
+            <div class="footer-content2"><br>
+                <p>MDN</p><br>
+                <a href="https://developer.mozilla.org/en-US/about">About</a><br>
+                <a href="https://developer.mozilla.org/en-US/blog/">Blog</a><br>
+                <a href="https://www.mozilla.org/en-US/careers/listings/?team=ProdOps" target="_blank">Careers</a><br>
+                <a href="https://developer.mozilla.org/en-US/advertising">Advertise with us</a><br>
+            </div>
+
+
+            <div class="footer-content3"><br>
+                <p>Support</p>
+                <a href="https://support.mozilla.org/en-US/products/mdn-plus">Product help</a>
+                <a href="https://developer.mozilla.org/en-US/docs/MDN/Community/Issues">Report an issue</a>
+            </div>
+
+            <div class="footer-content4"><br>
+                <p>Our Community</p>
+                <a href="https://developer.mozilla.org/en-US/community">MDN Community</a>
+                <a href="https://discourse.mozilla.org/c/mdn/236" target="_blank">MDN Forum</a>
+                <a href="https://discord.com/invite/Gt4Qf6q67h" target="_blank">MDN Chat</a>
+            </div>
+
+
+            <div class="footer-content5"><br>
+                <p>Developers</p>
+                <a href="https://developer.mozilla.org/en-US/docs/Web">Web Technologies</a>
+                <a href="https://developer.mozilla.org/en-US/docs/Learn">Learn Web Development</a>
+                <a href="https://developer.mozilla.org/en-US/plus">MDN Plus</a>
+                <a href="https://hacks.mozilla.org/" target="_blank">Hacks Blogs</a>
+            </div>
+        </div>
+
+        <div class="footer2">
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
