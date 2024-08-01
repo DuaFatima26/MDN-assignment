@@ -135,6 +135,7 @@ nav {
     z-index: 1;
     line-height: 2;
     margin-left: 10px;
+    margin-top: 10%;
 }
 
 /* styling of the heading inside the dropdown list */
@@ -201,6 +202,7 @@ nav {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     line-height: 2;
+    margin-top: 15%;
 }
 
 .dropdown-content2 a h4 {
@@ -332,6 +334,7 @@ color: black;
     min-width: 300px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     line-height: 2;
+    margin-top: 15%;
 }
 
 .dropdown-content6 a h4 {
